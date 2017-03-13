@@ -1,0 +1,23 @@
+--instruction 
+===========================================
+=== Multiple Authentication in Laravel 5.4 Series: ===
+===========================================
+Part 1: Setting up our Models and Auth Guards
+https://youtu.be/Ir2nAD9UDGg (Current Video)
+
+Part 2: Creating Login Pages and Logging in Users
+https://youtu.be/Ir2nAD9UDGg
+
+Part 3: Modifying Middleware to Support Multiple Users
+https://youtu.be/P8T3MjZPDdI
+
+
+1. run php artisan make:auth
+2. run php artisan make:model Admin -m
+3. after you set up the fields in your tabbles run php artisan migrate:refresh --seed
+4. copy the User.php into Admin.php model to authenticate
+5. create admin controller , routes and views.
+6.
+
+admin@admin.com admin
+user@user.com 123456
